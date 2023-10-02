@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+        }
+        H1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            font-style: italic;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border-radius: 5px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border-radius: 5px;
+            text-indent: 7px;
+        }
+        article{
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+        article > aside{
+            background-color: rgb(137, 136, 136);
+            height: 20px auto;
+            width: 100px ;
+            border-radius: 5px;
+            text-indent: 7px;
+        }
+        nav{
+            background-color: rgb(63, 63, 63);
+            border-radius: 5px;
+            text-indent: 7px;
+            box-shadow: 1.8px 1.6px 1px rgba(0, 0, 0, 0.239);
+        }
+        nav > a{
+            color: white;
+            text-decoration: double;
+            font-weight: 300;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            font-size: large;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título 1</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda modi facilis fuga officiis sequi similique, distinctio eius, veniam natus ratione aperiam repellendus facere illum iste, itaque perferendis! Ea, inventore odit?</p>
+            </article>
+            <article>
+                <aside>
+                    <p>By Agent</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>By Agent</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(34, 138, 218);
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(0, 0, 155);
+        }
+        a:active{
+            color: rgb(0, 0, 35);
+        }
+        a:after{
+            content: ' [link de redirecionamento externo]';
+            text-decoration: none;
+            font-family: serif;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" rel="external" href="https://github.com/">GitHub</a></li>
+        <li><a target="_blank" rel="external" href="https://www.youtube.com/index" >YouTube</a></li>
+    </ul>
+</body>
+</html>
